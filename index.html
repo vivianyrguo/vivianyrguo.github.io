@@ -1,1 +1,105 @@
-<h1>hi</h1>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>vivian guo</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Unna"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Inconsolata"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="main.css" />
+  </head>
+
+  <body>
+    <header></header>
+    <div class="container">
+      <div class="row">
+        <!-- left column -->
+        <div class="col-3 side-col">
+          <!-- <h5>Table of Contents</h5> -->
+          <div class="sticky contents">
+            <ul>
+              <li><a href="#about">about</a></li>
+              <li><a href="#experiences">experiences</a></li>
+              <li><a href="#connect">connect</a></li>
+              <li id="totop"><a href="#">return to top</a></li>
+            </ul>
+          </div>
+        </div>
+        <!-- main column -->
+        <div class="col-9 main-col">
+          <h2>Hi! I'm Vivian</h2>
+
+          <!-- about -->
+          <div id="about">
+            <h3>About</h3>
+            <!-- <div class="highlight">as of Winter (Jan - Apr) 2024</div> -->
+            <hr />
+            <div id="about-content">
+              <div>
+                Nice to meet you! I’m Vivian Guo, a third year
+                <a
+                  href="https://uwaterloo.ca/future-students/programs/computing-and-financial-management"
+                  target="_blank"
+                  >Computing Financial Management</a
+                >
+                student at the University of Waterloo. With studies in both
+                Computer Science and Finance, I am fascinated by both fields and
+                all of their innoviative intersections.
+              </div>
+              <div>
+                In my free time, I like to do digital art and design (UI,
+                graphic). I have been a part of the design team in University of
+                Waterloo's Computer Scicence Club, Non-profit Organziation
+                Consulting Club, and Imprint newspaper. Some projects I have
+                worked on include Waterloo’s
+                <a
+                  href="https://csclub.uwaterloo.ca/classprofile/2022/"
+                  target="_blank"
+                  >2022 Computer Science Class Profile</a
+                >, and various personal works
+                <a href="https://www.artstation.com/xyvv" target="_blank"
+                  >here</a
+                >.
+              </div>
+            </div>
+          </div>
+
+          <!-- experiences -->
+          <div id="experiences">
+            <h3>Experiences</h3>
+            <div class="">
+              all the teams I have had the pleasure of working with so far
+            </div>
+            <hr />
+            <div id="experiences-content"></div>
+          </div>
+
+          <!-- connect -->
+          <div id="connect">
+            <h3>Connect</h3>
+            <hr />
+            <!-- <div class="highlight">feel free to reach out!</div> -->
+            <div id="connect-content"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>Vivian Guo &copy; 2024</footer>
+
+    <script src="https://unpkg.com/mithril/mithril.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

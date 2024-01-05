@@ -1,0 +1,155 @@
+:root {
+    /* text colours */
+    --text: #111111;
+    --faded-text: #7d807e;
+
+    /* backing colours */
+    --pale-green: #EAECEA;
+    --light-green: #dbe2de;
+    --tag-1: #c4ddf0;
+    --tag-2: #fcf5d7;
+    --tag-3: #faedf2;
+    --tag-4: #dedede;
+
+}
+
+/* DEFAULT ELEMENTS */
+header{
+    padding-top: 1.2rem;
+    padding-bottom: 3rem;
+    /* text-align: right; */
+}
+
+header * div {
+    margin: 0;
+    display: inline-block;
+}
+
+body{
+    /* font-family: "Unna", serif; */
+    font-family: 'Unna', serif;
+    font-size: 1.12rem;
+}
+
+footer {
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+h2 {
+    font-size: 2.4rem;
+    font-weight: 500;
+}
+
+ul {
+    /* remove dots */
+    list-style: none;
+}
+
+li {
+    margin-bottom: 0.6rem;
+}
+
+.contents{
+    height: 100%;
+}
+
+a {
+    color: var(--faded-text);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--text);
+}
+
+.sticky{
+    position: fixed;
+}
+
+/* CONTENT COLUMNS */
+.side-col{
+    text-align: left;
+}
+.main-col{
+
+}
+
+/* MAIN COL -> CONTENT SECTIONS */
+#about {
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+#experiences {
+    margin-bottom: 3rem;
+
+}
+#connect {
+    margin-bottom: 3rem;
+
+}
+
+
+
+/* About section */
+#about-content > div {
+    margin-top: 0.8rem;
+    margin-bottom: 0.8rem;
+}
+
+/* Experience section */
+.role {
+    margin-top: 0.8rem;
+    margin-bottom: 0.8rem;
+}
+
+.tech-tags.container {
+
+}
+
+.tech-tag {
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-right: 0.4rem;
+}
+
+.tag-1 {
+    background-color: var(--tag-1);
+}
+.tag-2 {
+    background-color: var(--tag-2);
+}
+.tag-3 {
+    background-color: var(--tag-3);
+}
+.tag-4 {
+    background-color: var(--tag-4);
+}
+
+/* decorations */
+.highlight {
+    background-color: var(--light-green);
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+
+    font-family: 'Inconsolata', monospace;
+    font-size: 1rem;
+}
+
+.secondary-text{
+    color: var(--faded-text);
+    font-size: 1rem;
+}
+
+/* overidding some bootstrap classes */
+.container{
+    margin: 0px;
+    padding: 0px;
+}
+

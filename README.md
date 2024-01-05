@@ -1,7 +1,4 @@
 # vivianyrguo.github.io
 
-
-figure out:
-- how to use up domain
-- how to update new changes if vue is integrated
-- how does migrating the site work
+- personal website version 2023 - 2024
+- for solidifying learning to do with js

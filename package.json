@@ -1,0 +1,26 @@
+{
+  "name": "vivianyrguo.github.io",
+  "version": "1.0.0",
+  "description": "figure out:\r - how to use up domain\r - how to update new changes if vue is integrated\r - how does migrating the site work",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vivianyrguo/vivianyrguo.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vivianyrguo/vivianyrguo.github.io/issues"
+  },
+  "homepage": "https://github.com/vivianyrguo/vivianyrguo.github.io#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.2",
+    "mithril": "^2.2.2"
+  }
+}
