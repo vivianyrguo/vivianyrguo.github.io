@@ -78,6 +78,9 @@ a:hover {
     margin-top: 3rem;
     text-align: left;
 }
+.side-col-mobile{
+    display: none;
+}
 .main-col{
 
 }
@@ -181,5 +184,13 @@ a:hover {
 
     .contents-top .col-9 {
         display: flex;
+    }
+
+    .side-col {
+        display:none;
+    }
+    .side-col-mobile {
+        display: block;
+        margin-right: 1rem;
     }
 }
