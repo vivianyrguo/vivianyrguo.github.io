@@ -77,11 +77,10 @@ a:hover {
 .side-col{
     margin-top: 3rem;
     text-align: left;
-    display: block;
 }
-.side-col-mobile{
+/* .side-col-mobile{
     display: none;
-}
+} */
 .main-col{
 
 }
@@ -187,11 +186,11 @@ a:hover {
         display: flex;
     }
 
-    .side-col {
+    /* .side-col {
         display: none;
-    }
-    .side-col-mobile {
+    } */
+    /* .side-col-mobile {
         display: block;
         margin-right: 1rem;
-    }
+    } */
 }
