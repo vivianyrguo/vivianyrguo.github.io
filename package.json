@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "figure out:\r - how to use up domain\r - how to update new changes if vue is integrated\r - how does migrating the site work",
   "main": "server.js",
-  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
