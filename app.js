@@ -1,7 +1,4 @@
-const HeaderData = {
-  darkmode: "",
-};
-
+// data for various sections
 const experiencesData = [
   {
     roleTitle: "Python Web Developer",
@@ -37,6 +34,50 @@ const experiencesData = [
     roleSummary:
       "Hazelview Investments is a real estate investment company generating value for people and properties. As a tax intern on the Finance & Operations team, my work involved assisting the tax partner with tax filings and automating existing processes with Microsoft VBA and Python scripts.",
   },
+];
+
+const projectsData = [
+  {
+    title: "Improvements to Waterloo Business Review's Website",
+    link: "https://github.com/waterloobr/waterloobr.github.io",
+    tags: [{ tech: "HTML, CSS, JavaScript", class: "tag-4" }],
+    date: "Nov - Dec 2023",
+    affliated: "Waterloo Business Review",
+    blurb: "",
+  },
+  {
+    title: "The Digital Recession",
+    link: "https://waterloobusinessreview.com/articles/fall-2022/dr.html",
+    tags: [{ tech: "Research & Writing", class: "tag-3" }],
+    date: "Sep - Dec 2022",
+    affliated: "Waterloo Business Review",
+    blurb: "",
+  },
+  {
+    title: "Computer Science Class Profile 2022",
+    link: "https://csclub.uwaterloo.ca/classprofile/2022/",
+    tags: [{ tech: "Design", class: "tag-2" }],
+    date: "Jan - Apr 2022",
+    affliated: "University of Waterloo Computer Science Club",
+    blurb: "",
+  },
+  {
+    title:
+      "Machine Learning May Destroy Objective Truth on the Internet Forever",
+    link: "https://waterloobusinessreview.com/articles/fall-2021/machine_learning.html",
+    tags: [{ tech: "Research & Writing", class: "tag-3" }],
+    date: "Sep - Dec 2021",
+    affliated: "Waterloo Business Review",
+    blurb: "",
+  },
+  // {
+  //   title: "Portfolio Optimizer",
+  //   link: "https://github.com/vivianvg/cfm101/blob/main/CFM_FinalGroupAssignment.pdf",
+  //   tags: [{ tech: "Python", class: "tag-1" }],
+  //   date: "Dec 2021",
+  //   affliated: "CFM101",
+  //   blurb: "",
+  // },
 ];
 
 const socialsData = [
@@ -102,6 +143,26 @@ var Experience = {
   },
 };
 m.mount(document.getElementById("experiences-content"), Experience);
+
+// Projects
+var Projects = {
+  view: function () {
+    return [
+      projectsData.map(function (project) {
+        return m("div", { class: "role" }, [
+          m("a", { href: project.link, target: "_blank" }, project.title),
+          m(Tags, { tags: project.tags }),
+          m(
+            "div",
+            { class: "secondary-text" },
+            project.date + " | " + project.affliated
+          ),
+        ]);
+      }),
+    ];
+  },
+};
+m.mount(document.getElementById("projects-content"), Projects);
 
 // Connect
 var Connect = {

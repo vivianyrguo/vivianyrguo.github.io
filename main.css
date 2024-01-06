@@ -93,6 +93,9 @@ a:hover {
     margin-bottom: 3rem;
 
 }
+#projects{
+    margin-bottom: 3rem;
+}
 #connect {
     margin-bottom: 3rem;
 
@@ -187,11 +190,4 @@ a:hover {
         margin-left:14%;
     }
 
-    /*.side-col {
-        display: none;
-    } */
-    /* .side-col-mobile {
-        display: block;
-        margin-right: 1rem;
-    } */
 }
