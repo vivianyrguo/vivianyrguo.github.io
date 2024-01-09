@@ -79,9 +79,6 @@ a:hover {
     text-align: left;
     display:block;
 }
-/* .side-col-mobile{
-    display: none;
-} */
 
 
 /* MAIN COL -> CONTENT SECTIONS */
@@ -104,8 +101,6 @@ a:hover {
     margin-top: 3rem;
 }
 
-
-
 /* About section */
 #about-content > div {
     margin-top: 0.8rem;
@@ -116,10 +111,6 @@ a:hover {
 .role {
     margin-top: 0.8rem;
     margin-bottom: 0.8rem;
-}
-
-.tech-tags.container {
-
 }
 
 .tech-tag {
@@ -177,7 +168,7 @@ a:hover {
 
     .contents-top {
         display: flex;
-        /* align-items: flex-end; */
+        margin-right: 8rem;
     }
     .contents-header > div {
         margin-right: 1rem;
