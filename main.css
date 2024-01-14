@@ -102,10 +102,28 @@ a:hover {
 }
 
 /* About section */
-#about-content > div {
+.about-content-text > div {
     margin-top: 0.8rem;
     margin-bottom: 0.8rem;
 }
+
+.about-content-image {
+    overflow: hidden; 
+  }
+  
+.about-content-image img {
+    width: 100%; 
+    height: auto;
+    display: block; 
+    border-radius: 1rem;
+    margin-top: 1rem;
+}
+
+#about-content-mobile {
+    display: none;
+}
+
+
 
 /* Experience section */
 .role {
@@ -157,7 +175,31 @@ a:hover {
 
 
 /* mobile */
+
+
+@media only screen and (max-width: 768px) {
+    #about-content{
+        display:none;
+    }
+
+    #about-content-mobile {
+        display: block;
+    }
+
+    .headshot {
+        scale: 75%;
+    }
+
+    .main-col{
+        padding-left: 2rem;
+    }
+
+}
+
 @media only screen and (max-width: 600px) {
+    .main-col{
+        padding-left: 0;
+    }
     .sticky{
         position: static;
     }
