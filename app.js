@@ -10,7 +10,7 @@ const experiencesData = [
       { tech: "Bash", class: "tag-3" },
     ],
     roleSummary:
-      "OANDA is an online trading group offering services such as forex trading platform and currency data. I interned as a web developer on the Funding backend team, taking on various tickets for improving OANDA’s internal client management platforms, and contributing to OANDA's funding API.",
+      "OANDA is an online trading group offering services such as forex trading platform and currency data. I interned as a web developer on the Funding backend team, taking on various tickets for improving OANDA’s internal client management platforms, and contributing to OANDA's Funding API.",
   },
   {
     roleTitle: "Research Intern",
@@ -21,7 +21,7 @@ const experiencesData = [
       { tech: "Bash", class: "tag-3" },
     ],
     roleSummary:
-      "DarwinAI provides end-to-end visual quality inspection for printed circuit boards with cutting edge AI. A dominant part of my work as a research intern invovled developing scripts to improve efficiency for image processing and ensuring the quality of training data.",
+      "DarwinAI provides end-to-end visual quality inspection for printed circuit boards with cutting edge AI. A dominant part of my work as a research intern involved developing scripts to improve efficiency for image processing and ensuring the quality of training data.",
   },
   {
     roleTitle: "Tax Intern",
