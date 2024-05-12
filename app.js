@@ -3,6 +3,7 @@ const experiencesData = [
   {
     roleTitle: "Python Web Developer",
     roleCompany: "OANDA",
+    roleCompanyLink: "https://www.linkedin.com/company/oanda/",
     roleDuration: "Sep - Dec 2023",
     roleTechnologies: [
       { tech: "Python", class: "tag-1" },
@@ -15,6 +16,7 @@ const experiencesData = [
   {
     roleTitle: "Research Intern",
     roleCompany: "DarwinAI",
+    roleCompanyLink: "https://www.linkedin.com/company/darwinai/",
     roleDuration: "Jan - Apr 2023",
     roleTechnologies: [
       { tech: "Python", class: "tag-1" },
@@ -26,6 +28,7 @@ const experiencesData = [
   {
     roleTitle: "Tax Intern",
     roleCompany: "Hazelview Investments",
+    roleCompanyLink: "https://www.linkedin.com/company/hazelviewinvestments/",
     roleDuration: "May - Aug 2023",
     roleTechnologies: [
       { tech: "Python", class: "tag-1" },
@@ -111,6 +114,7 @@ var Role = {
   view: function (vnode) {
     const title = vnode.attrs.title;
     const company = vnode.attrs.company;
+    const company_link = vnode.attrs.company_link;
     const tech = vnode.attrs.tech;
     const duration = vnode.attrs.duration;
     const summary = vnode.attrs.summary;
@@ -118,7 +122,7 @@ var Role = {
     return m("div", { class: "role" }, [
       //   m("hr"),
       m("div", { class: "role-details" }, [
-        m("b", title + " | " + company),
+        m("b", [title + " | ", m("a", { href: company_link, target: "_blank" }, company)]),
         m(Tags, { tags: tech }),
         m("div", { class: "secondary-text" }, duration),
       ]),
@@ -134,6 +138,7 @@ var Experience = {
         return m(Role, {
           title: role.roleTitle,
           company: role.roleCompany,
+          company_link: role.roleCompanyLink,
           tech: role.roleTechnologies,
           duration: role.roleDuration,
           summary: role.roleSummary,
