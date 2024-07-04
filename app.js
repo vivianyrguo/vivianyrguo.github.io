@@ -1,6 +1,17 @@
 // data for various sections
 const experiencesData = [
   {
+    roleTitle: "Software Engineer Intern",
+    roleCompany: "Carta",
+    roleCompanyLink: "https://www.linkedin.com/company/carta--/",
+    roleDuration: "May 2024 - Present",
+    roleTechnologies: [
+      { tech: "Python", class: "tag-1" },
+    ],
+    roleSummary:
+      "Carta is an equity management software providing infrastructure for innovators. I currently intern as a software engineer.",
+  },
+  {
     roleTitle: "Python Web Developer",
     roleCompany: "OANDA",
     roleCompanyLink: "https://www.linkedin.com/company/oanda/",
@@ -41,11 +52,11 @@ const experiencesData = [
 
 const projectsData = [
   {
-    title: "Improvements to Waterloo Business Review's Website",
-    link: "https://github.com/waterloobr/waterloobr.github.io",
-    tags: [{ tech: "HTML, CSS, JavaScript", class: "tag-4" }],
-    date: "Nov - Dec 2023",
-    affliated: "Waterloo Business Review",
+    title: "Factor Trading",
+    link: "https://github.com/yiyun-sj/factor-trading",
+    tags: [{ tech: "Python", class: "tag-4" }],
+    date: "Apr 2024",
+    affliated: "CFM301 Group Project",
     blurb: "",
   },
   {
