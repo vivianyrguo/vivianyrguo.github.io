@@ -4,12 +4,12 @@ const experiencesData = [
     roleTitle: "Software Engineer Intern",
     roleCompany: "Carta",
     roleCompanyLink: "https://www.linkedin.com/company/carta--/",
-    roleDuration: "May 2024 - Present",
+    roleDuration: "May 2024 - August 2024",
     roleTechnologies: [
       { tech: "Python", class: "tag-1" },
     ],
     roleSummary:
-      "Carta is an equity management software providing infrastructure for innovators. I currently intern as a software engineer.",
+      "Carta is an equity management software providing infrastructure for innovators. I interned as a backend software engineer working on the QSBS product.",
   },
   {
     roleTitle: "Python Web Developer",
