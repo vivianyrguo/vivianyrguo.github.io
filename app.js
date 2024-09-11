@@ -60,6 +60,22 @@ const projectsData = [
     blurb: "",
   },
   {
+    title: "Introduction to Sublinear and Streaming Algorithms ",
+    link: "https://github.com/RachelMa722/DRP-Sparse-Recovery",
+    tags: [{ tech: "Research & Writing", class: "tag-3" }],
+    date: "Jan - Apr 2024",
+    affliated: "University of Waterloo - Directed Reading Program",
+    blurb: "",
+  },
+  {
+    title: "Revisitng the European Energy Crisis",
+    link: "https://waterloobusinessreview.com/articles/winter-2024/european-energy.html",
+    tags: [{ tech: "Research & Writing", class: "tag-3" }],
+    date: "Jan - Apr 2024",
+    affliated: "Waterloo Business Review",
+    blurb: "",
+  },
+  {
     title: "The Digital Recession",
     link: "https://waterloobusinessreview.com/articles/fall-2022/dr.html",
     tags: [{ tech: "Research & Writing", class: "tag-3" }],
