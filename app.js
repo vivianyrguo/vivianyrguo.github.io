@@ -4,12 +4,24 @@ const experiencesData = [
     roleTitle: "Software Engineer Intern",
     roleCompany: "Carta",
     roleCompanyLink: "https://www.linkedin.com/company/carta--/",
+    roleDuration: "January 2025 - April 2025",
+    roleTechnologies: [
+      { tech: "Python", class: "tag-1" },
+      { tech: "React", class: "tag-2" },
+    ],
+    roleSummary:
+      "Carta is an equity management software providing infrastructure for innovators. I interned as a software engineer working in PortCo Data team.",
+  },
+  {
+    roleTitle: "Software Engineer Intern",
+    roleCompany: "Carta",
+    roleCompanyLink: "https://www.linkedin.com/company/carta--/",
     roleDuration: "May 2024 - August 2024",
     roleTechnologies: [
       { tech: "Python", class: "tag-1" },
     ],
     roleSummary:
-      "Carta is an equity management software providing infrastructure for innovators. I interned as a backend software engineer working on the QSBS product.",
+      "Carta is an equity management software providing infrastructure for innovators. I interned as a software engineer working on the QSBS product.",
   },
   {
     roleTitle: "Python Web Developer",
@@ -168,7 +180,7 @@ var Experience = {
           company_link: role.roleCompanyLink,
           tech: role.roleTechnologies,
           duration: role.roleDuration,
-          summary: role.roleSummary,
+          // summary: role.roleSummary,
         });
       }),
     ];
