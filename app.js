@@ -4,7 +4,7 @@ const experiencesData = [
     roleTitle: "Software Engineer Intern",
     roleCompany: "Carta",
     roleCompanyLink: "https://www.linkedin.com/company/carta--/",
-    roleDuration: "January 2025 - April 2025",
+    roleDuration: "Jan 2025 - Apr 2025",
     roleTechnologies: [
       { tech: "Python", class: "tag-1" },
       { tech: "React", class: "tag-2" },
@@ -16,7 +16,7 @@ const experiencesData = [
     roleTitle: "Software Engineer Intern",
     roleCompany: "Carta",
     roleCompanyLink: "https://www.linkedin.com/company/carta--/",
-    roleDuration: "May 2024 - August 2024",
+    roleDuration: "May 2024 - Aug 2024",
     roleTechnologies: [
       { tech: "Python", class: "tag-1" },
     ],
@@ -27,7 +27,7 @@ const experiencesData = [
     roleTitle: "Python Web Developer",
     roleCompany: "OANDA",
     roleCompanyLink: "https://www.linkedin.com/company/oanda/",
-    roleDuration: "Sep - Dec 2023",
+    roleDuration: "Sep 2023 - Dec 2023",
     roleTechnologies: [
       { tech: "Python", class: "tag-1" },
       { tech: "JavaScript", class: "tag-2" },
@@ -40,7 +40,7 @@ const experiencesData = [
     roleTitle: "Research Intern",
     roleCompany: "DarwinAI",
     roleCompanyLink: "https://www.linkedin.com/company/darwinai/",
-    roleDuration: "Jan - Apr 2023",
+    roleDuration: "Jan 2023 - Apr 2023",
     roleTechnologies: [
       { tech: "Python", class: "tag-1" },
       { tech: "Bash", class: "tag-3" },
@@ -52,7 +52,7 @@ const experiencesData = [
     roleTitle: "Tax Intern",
     roleCompany: "Hazelview Investments",
     roleCompanyLink: "https://www.linkedin.com/company/hazelviewinvestments/",
-    roleDuration: "May - Aug 2023",
+    roleDuration: "May 2023 - Aug 2023",
     roleTechnologies: [
       { tech: "Python", class: "tag-1" },
       { tech: "Microsoft VBA", class: "tag-4" },
