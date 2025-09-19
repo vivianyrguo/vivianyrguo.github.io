@@ -10,7 +10,7 @@ const experiencesData = [
       { tech: "React", class: "tag-2" },
     ],
     roleSummary:
-      "Carta is an equity management software providing infrastructure for innovators. I interned as a software engineer working in PortCo Data team.",
+      "Carta is an equity management software providing infrastructure for innovators. I interned as a software engineer on the Portfolio Insights team.",
   },
   {
     roleTitle: "Software Engineer Intern",
@@ -21,10 +21,10 @@ const experiencesData = [
       { tech: "Python", class: "tag-1" },
     ],
     roleSummary:
-      "Carta is an equity management software providing infrastructure for innovators. I interned as a software engineer working on the QSBS product.",
+      "Carta is an equity management software providing infrastructure for innovators. I interned as a software engineer working on the QSBS (Qualified Small Business Stock) product.",
   },
   {
-    roleTitle: "Python Web Developer",
+    roleTitle: "Backend Developer Intern",
     roleCompany: "OANDA",
     roleCompanyLink: "https://www.linkedin.com/company/oanda/",
     roleDuration: "Sep 2023 - Dec 2023",
@@ -34,10 +34,10 @@ const experiencesData = [
       { tech: "Bash", class: "tag-3" },
     ],
     roleSummary:
-      "OANDA is an online trading group offering services such as forex trading platform and currency data. I interned as a web developer on the Funding backend team, taking on various tickets for improving OANDA’s internal client management platforms, and contributing to OANDA's Funding API.",
+      "OANDA is an online trading group offering services such as forex trading platform and currency data. I interned as a developer on the funding backend team, contributing to features for OANDA’s internal client management platforms and funding API.",
   },
   {
-    roleTitle: "Research Intern",
+    roleTitle: "Research Data Intern",
     roleCompany: "DarwinAI",
     roleCompanyLink: "https://www.linkedin.com/company/darwinai/",
     roleDuration: "Jan 2023 - Apr 2023",
