@@ -125,11 +125,11 @@ const projectsData = [
 const socialsData = [
   {
     platform: "LinkedIn",
-    link: "https://github.com/vivianyrguo",
+    link: "https://www.linkedin.com/in/vivianvg/",
   },
   {
     platform: "Github",
-    link: "https://github.com/vivianvg",
+    link: "https://github.com/vivianyrguo",
   },
   {
     platform: "Devpost",
