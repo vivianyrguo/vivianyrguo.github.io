@@ -81,7 +81,7 @@ const projectsData = [
   },
   {
     title: "Revisitng the European Energy Crisis",
-    link: "https://waterloobusinessreview.com/articles/winter-2024/european-energy.html",
+    link: "https://waterloobusinessreview.org/articles/winter-2024/european-energy.html",
     tags: [{ tech: "Research & Writing", class: "tag-3" }],
     date: "Jan - Apr 2024",
     affliated: "Waterloo Business Review",
@@ -89,7 +89,7 @@ const projectsData = [
   },
   {
     title: "The Digital Recession",
-    link: "https://waterloobusinessreview.com/articles/fall-2022/dr.html",
+    link: "https://waterloobusinessreview.org/articles/fall-2022/dr.html",
     tags: [{ tech: "Research & Writing", class: "tag-3" }],
     date: "Sep - Dec 2022",
     affliated: "Waterloo Business Review",
@@ -106,7 +106,7 @@ const projectsData = [
   {
     title:
       "Machine Learning May Destroy Objective Truth on the Internet Forever",
-    link: "https://waterloobusinessreview.com/articles/fall-2021/machine_learning.html",
+    link: "https://waterloobusinessreview.org/articles/fall-2021/machine_learning.html",
     tags: [{ tech: "Research & Writing", class: "tag-3" }],
     date: "Sep - Dec 2021",
     affliated: "Waterloo Business Review",
@@ -230,3 +230,4 @@ var Header = {
   },
 };
 m.mount(document.getElementsByTagName("header")[0], Header);
+
